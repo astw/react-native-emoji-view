@@ -1,11 +1,25 @@
 {
   "name": "react-native-emoji-view",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "description": "react-native emoji 表情选择器",
+  "author": "Enok <416828041@qq.com>",
+  "license": "MIT",
   "private": false,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fengmu456/react-native-emoji-view"
+  },
+  "keywords": [
+    "react-native",
+    "emoji",
+    "view",
+    "list"
+  ],
+  "main": "src/index.js",
   "peerDependencies": {
     "react": "16.3.0-alpha.1",
     "react-native": "0.54.3",
